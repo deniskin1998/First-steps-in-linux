@@ -1,0 +1,57 @@
+user@user-VirtualBox:~$ cat > file1
+Hello World!
+:q
+:qw
+
+user@user-VirtualBox:~$ cat file1
+Hello World!
+:q
+:qw
+
+user@user-VirtualBox:~$ cat > file2
+Hello Linux!!
+user@user-VirtualBox:~$ cat file2
+Hello Linux!!
+user@user-VirtualBox:~$ cat file1
+Hello World!
+:q
+:qw
+
+user@user-VirtualBox:~$ cat file1 file2 > file3
+user@user-VirtualBox:~$ cat file3
+Hello World!
+:q
+:qw
+
+Hello Linux!!
+user@user-VirtualBox:~$ cat file1 file2 > file3
+user@user-VirtualBox:~$ cat file3
+Hello World!
+:q
+:qw
+
+Hello Linux!!
+user@user-VirtualBox:~$ cat file1 file2 >> file3
+user@user-VirtualBox:~$ cat file3
+Hello World!
+:q
+:qw
+
+Hello Linux!!
+Hello World!
+:q
+:qw
+
+Hello Linux!!
+
+user@user-VirtualBox:~$ cat -s file_nw
+Hello World!
+:q
+:qw
+
+Hello Linux!!
+Hello World!
+:q
+:qw
+
+Hello Linux!!

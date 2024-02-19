@@ -1,0 +1,13 @@
+user@user-VirtualBox:~$ cat * /etc/ 2> error.log
+cat: Desktop: Is a directory
+cat: Documents: Is a directory
+cat: Downloads: Is a directory
+cat: Music: Is a directory
+cat: Pictures: Is a directory
+cat: Public: Is a directory
+cat: Templates: Is a directory
+cat: Videos: Is a directory
+cat: /etc/: Is a directory
+
+user@user-VirtualBox:~$ wc -l error.log
+9 error.log
